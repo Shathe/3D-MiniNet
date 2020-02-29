@@ -26,6 +26,7 @@ The following figure shows the basic building block of our **3D-MiniNet**:
 <p align="center"> <img src="figs/3D-MiniNet.png" width="100%"> </p>
 
 3D-MiniNet overview. It takes *P* groups of *N* points each and computes semantic segmentation of the *M* points of the point cloud where *PxN=M*.
+
 It consists of two main modules: our proposed learning module (on the left) which learns a 2D tensor which is fed to the second module, an efficient FCNN backbone (on the right) which computes the 2D semantic segmentation. Each 3D point of the point cloud is given a semantic label based on the 2D segmentation.
 
 ## Code will be soon released (Pytorch and Tensorflow implementation)    
