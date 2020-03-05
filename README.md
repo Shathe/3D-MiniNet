@@ -29,5 +29,13 @@ The following figure shows the basic building block of our **3D-MiniNet**:
 
 It consists of two main modules: our proposed learning module (on the left) which learns a 2D tensor which is fed to the second module, an efficient FCNN backbone (on the right) which computes the 2D semantic segmentation. Each 3D point of the point cloud is given a semantic label based on the 2D segmentation.
 
-## Code will be soon released (Pytorch and Tensorflow implementation)    
+## Code will be soon released (Pytorch and Tensorflow implementation)  
+The Pytorch implementation will use the [RangeNet++ (Milioto et al. IROS2019) repo](https://github.com/PRBonn/lidar-bonnetal) as its code base.
+
+The Tensorflow implementation will use the [LuNet (Biasutti et al. ICCVW2019) repo](https://github.com/pbias/lunet) as its code base.
+
+The code will be released around April.
+In the meantime, check those works out and give them love, they are really good works!
+
+
 
