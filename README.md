@@ -6,7 +6,7 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/3d-mininet-learning-a-2d-representation-from/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=3d-mininet-learning-a-2d-representation-from)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/3d-mininet-learning-a-2d-representation-from/real-time-3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/real-time-3d-semantic-segmentation-on?p=3d-mininet-learning-a-2d-representation-from)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/3d-mininet-learning-a-2d-representation-from/real-time-3d-semantic-segmentation-on)](https://paperswithcode.com/sota/real-time-3d-semantic-segmentation-on?p=3d-mininet-learning-a-2d-representation-from)
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2002.10893.pdf)
 
