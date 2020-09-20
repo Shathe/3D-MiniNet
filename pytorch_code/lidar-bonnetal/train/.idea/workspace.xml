@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f11068d9-25fe-435b-9ed8-58e5e6e71977" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/lidar-bonnetal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/lidar-bonnetal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backbones/darknet.py" beforeDir="false" afterPath="$PROJECT_DIR$/backbones/darknet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/semantic/config/arch/darknet21.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/semantic/config/arch/darknet21.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/semantic/dataset/kitti/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/semantic/dataset/kitti/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/semantic/decoders/darknet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/semantic/decoders/darknet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/semantic/modules/segmentator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/semantic/modules/segmentator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/semantic/modules/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/semantic/modules/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/semantic/modules/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/semantic/modules/user.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1V4c3vUNhufFdWk5sZsOXfEBobu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="train" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tasks/semantic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/semantic/train.py" />
+      <option name="PARAMETERS" value="-d  $USER_HOME$/Downloads/SemanticKitti/data_odometry_velodyne/dataset/ -ac  config/arch/darknet21.yaml   -l  $USER_HOME$/Downloads/logs/" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="train" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tasks/semantic/modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/semantic/modules/trainer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.trainer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f11068d9-25fe-435b-9ed8-58e5e6e71977" name="Default Changelist" comment="" />
+      <created>1576515611467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576515611467</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3331" y="750" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576515729292">
+      <screen x="1920" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3331" y="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.3840.2160/0.27.1920.1053@1920.0.3840.2160" timestamp="1576515729292" />
+    <state x="3547" y="773" width="642" height="639" key="#train" timestamp="1576515758721">
+      <screen x="1920" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3547" y="773" width="642" height="639" key="#train/1920.0.3840.2160/0.27.1920.1053@1920.0.3840.2160" timestamp="1576515758721" />
+    <state width="2512" height="444" key="GridCell.Tab.0.bottom" timestamp="1577059546770">
+      <screen x="1920" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2512" height="444" key="GridCell.Tab.0.bottom/1920.0.3840.2160/0.27.1920.1053@1920.0.3840.2160" timestamp="1577059546770" />
+    <state width="2512" height="444" key="GridCell.Tab.0.center" timestamp="1577059546770">
+      <screen x="1920" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2512" height="444" key="GridCell.Tab.0.center/1920.0.3840.2160/0.27.1920.1053@1920.0.3840.2160" timestamp="1577059546770" />
+    <state width="2512" height="444" key="GridCell.Tab.0.left" timestamp="1577059546770">
+      <screen x="1920" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2512" height="444" key="GridCell.Tab.0.left/1920.0.3840.2160/0.27.1920.1053@1920.0.3840.2160" timestamp="1577059546770" />
+    <state width="2512" height="444" key="GridCell.Tab.0.right" timestamp="1577059546770">
+      <screen x="1920" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2512" height="444" key="GridCell.Tab.0.right/1920.0.3840.2160/0.27.1920.1053@1920.0.3840.2160" timestamp="1577059546770" />
+  </component>
+</project>
