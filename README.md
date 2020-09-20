@@ -41,7 +41,8 @@ If you find 3D-MiniNet useful, please consider citing:
 @article{alonso2020MiniNet3D,
   title={3D-MiniNet: Learning a 2D Representation from Point Clouds for Fast and Efficient 3D LIDAR Semantic Segmentation},
   author={Alonso, I{\~n}igo and Riazuelo, Luis and Montesano, Luis and Murillo, Ana C},
-  journal={arXiv preprint arXiv:2002.10893},
-  year={2020}
+booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2020},
+  organization={IEEE}
 }
 ```
