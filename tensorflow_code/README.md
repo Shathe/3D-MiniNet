@@ -38,6 +38,5 @@ tensorboard --logdir=training_path/logs
 The current data augmentation is enable. You can disable commenting [this line](https://github.com/Shathe/3D-MiniNet/blob/master/tensorflow_code/train.py#L268).
 The data augmentation explained in the paper is for a 360º view LIDAR and this dataset is not.
 For this dataset other data augmentation was implemented see the data [augmentation file](augmentation.py).
-For enabling the data augmentation just uncomment the line 268 from the training file.
 **The data augmentation is specific for this dataset and dataset format so if you are using other dataset, do not use this one.**
 Besides, the current daat augmentation is done in the 2D space (images), not on the 3D space (point cloud) which is preferable.
