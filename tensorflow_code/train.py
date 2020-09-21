@@ -265,7 +265,7 @@ def train():
 		# Retrieving current batch
 		points_data, neighbors_data, label_data = sess.run([batch_points, batch_neighbors, batch_label])
 
-		# points_data, label_data = augmentation(points_data, label_data)
+		points_data, label_data = augmentation(points_data, label_data)
 
 		# Computing learning rate
 		rate = get_learning_rate(i, CONFIG.LEARNING_RATE, CONFIG.LR_DECAY_INTERVAL, CONFIG.LR_DECAY_VALUE)
